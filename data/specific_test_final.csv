@@ -1,0 +1,367 @@
+"CCC(O[O:1][N+:2]([O-])=O)=O>>CCC(O[O:1])=O.[O-][N+:2]=O 1,2-1;2,1-2",Room Temperature,Initiation,homolyze
+"CCC(O[O:1])=O.[O-][N+:2]=O>>CCC(O[O:1][N+:2]([O-])=O)=O 1-1,2;2-2,1",Room Temperature,Termination,recombine
+"[CH3:4][C:3](=[CH:2][OH:1])[CH:5][CH2:6][OH:7].[O:8][O:9]>>[CH3:4][C:3](=[CH:2][OH:1])[CH:5]([CH2:6][OH:7])[O:8][O:9] 8-8,5; 5-5,8",Room Temperature,Termination,recombine
+"C/[C:21]([CH2:20][O:10][H])=[CH:22]/[CH2:23][O:30][O:31].[N:40]=[O:41]>>C/[C:21]([CH2:20][O:10][H])=[CH:22]/[CH2:23][O:30][O:31][N:40]=[O:41] 31-31,40;40-31,40",Room Temperature,Termination,recombine
+"C/[C:21]([CH2:20][O:10][H])=[CH:22]/[CH2:23][O:30][O:31][N:40]=[O:41]>>C/[C:21]([CH2:20][O:10][H])=[CH:22]/[CH2:23][O:30].[O:31][N:40]=[O:41] 30,31-31;30,31-30",Room Temperature,Initiation,homolyze
+"[O:20]C(C(C)(C=O)OO)CO.[O-][N+:30]=[O]>>[O]=[N+:30]([O-])[O:20]C(C(C)(C=O)OO)CO 20-20,30;30-20,30",Room Temperature,Termination,recombine
+"[H:13][O:14][O:15].[H:12][O:11][O:10][C:3]([CH3:4])([CH:2]=[O:1])[CH:5]([CH2:6][OH:7])[O:8][O:9]>>[H:13][O:9][O:8][CH:5]([CH2:6][OH:7])[C:3]([CH3:4])([CH:2]=[O:1])[O:10][O:11][H:12].[O:14][O:15] 9-9,13;13,14-9,13;13,14-14",Room Temperature,Propagation,abstraction
+"[O:10]OC(C([C:21]([H:20])=O)OO)(C)CO>>[H:20][O:10]OC(C([C:21]=O)OO)(C)CO 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:10][O:9][O:8][C:6]([CH3:7])[CH:3]([CH2:2][OH:1])[O:4][OH:5]>>[H:10][O:9].[O:8]=[C:6]([CH3:7])[CH:3]([CH2:2][OH:1])[O:4][OH:5] 9,8-8,6;6-8,6;8,9-9",Room Temperature,Propagation,retroaddition
+"C[C:21]([O:30][O:31])([CH2:20]O[H])[CH:22]=[CH2:23].[H:50][O:51][O:52]>>C[C:21]([O:30][O:31][H:50])([CH2:20]O[H])[CH:22]=[CH2:23].[O:51][O:52] 31-31,50;50,51-31,50;50,51-51",Room Temperature,Propagation,abstraction
+"[H:20][O:21][CH2:22].[O:10][O]>>[H:20][O:10][O].[CH2:22]=[O:21] 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"CC(C=O)(C(OO)C[O:20][O:21]N=O)OO>>CC(C=O)(C(C[O:20])OO)OO.N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:12][C:11](=[CH2:13])[C:2]([CH3:1])([CH:3]([O:7])[O:4][O:5][H:6])[O:8][O:9][H:10]>>[H:12][C:11](=[CH2:13])[C:2]([CH3:1])([CH:3]=[O:7])[O:8][O:9][H:10].[H:6][O:5][O:4] 7-7,3; 4,3-7,3; 4,3-4",Room Temperature,Propagation,retroaddition
+"[H:14][O:13][O:12][CH2:11][CH:7]([C:3]([CH3:4])([CH:2]=[O:1])[O:5][O:6])[O:8][O:9][H:10]>>[H:10][O:9][O:8][CH:7]([CH2:11][O:12][O:13])[C:3]([CH3:4])([CH:2]=[O:1])[O:5][O:6][H:14] 13,14-6,14;13,14-13;6-6,14",Room Temperature,Propagation,abstraction
+"[CH3:4][C:3]([CH:2]=[O:1])([CH:7]([CH2:8][O:9][OH:10])[O:12][O:13][N:14]=[O:15])[O:5][OH:6]>>[CH3:4][C:3]([CH:2]=[O:1])([CH:7]([O:12])[CH2:8][O:9][OH:10])[O:5][OH:6].[N:14](=[O:15])[O:13] 12,13-13; 12,13-12",Room Temperature,Initiation,homolyze
+"[CH3:4][C:3]([CH:2]=[O:1])([CH:7]([O:12])[CH2:8][O:9][OH:10])[O:5][OH:6].[N+:14](=[O:15])[O-:13]>>[CH3:4][C:3]([CH:2]=[O:1])([CH:7]([O:12][N+:14](=[O:15])[O-:13])[CH2:8][O:9][OH:10])[O:5][OH:6] 12-12,14; 14-12,14",Room Temperature,Termination,recombine
+"[CH3:4][C:3](=[CH:2][OH:1])[CH:5]([CH2:8][O:9][O:10])[O:6][OH:7].[N:11]=[O:12]>>[CH3:4][C:3](=[CH:2][OH:1])[CH:5]([CH2:8][O:9][O:10][N:11]=[O:12])[O:6][OH:7] 10-11,10; 11-11,10",Room Temperature,Termination,recombine
+"[CH3:4][C:3]([CH2:5][O:6][N+:7](=[O:9])[O-:8])[CH:2]=[CH2:1].[O:10][O:11]>>[CH3:4][C:3]([CH2:5][O:6][N+:7](=[O:9])[O-:8])([CH:2]=[CH2:1])[O:10][O:11] 10-3,10;3-3,10",Room Temperature,Termination,recombine
+"[H:1][C:2]([CH2:3][O:4][OH:5])[C:6](=[C:7]([H:8])[OH:9])[CH3:10]>>[H:1][C:2](=[C:6]([CH3:10])[C:7]([H:8])[OH:9])[CH2:3][O:4][OH:5] 7,6-7; 2-2,6; 7,6-6,2",Room Temperature,Propagation,resonance
+"[CH3:1][C:2]([CH2:5][O:6][OH:7])[O:3][OH:4]>>[CH3:1][C:2](=[O:3])[CH2:5][O:6][OH:7].[OH:4] 2-2,3; 3,4-2,3; 3,4-4",Room Temperature,Propagation,retroaddition
+"[H:6][O:5][O:4][CH2:3][C:2](=[CH:7][CH:8]([OH:9])[O:10][O:11])[CH3:1]>>[H:6][O:11][O:10][CH:8]([CH:7]=[C:2]([CH3:1])[CH2:3][O:4][O:5])[OH:9] 11-11,6; 5,6-5; 5,6-11,6",Room Temperature,Propagation,abstraction
+"[H:6][C:5](=[C:7]([H:9])[OH:8])[C:4]([CH3:3])[CH2:10][O:11][OH:12].[O:1][O:2]>>[H:6][C:5](=[C:7]([H:9])[OH:8])[C:4]([CH3:3])([CH2:10][O:11][OH:12])[O:2][O:1] 2-4,2; 4-4,2",Room Temperature,Termination,recombine
+"C[C:10](COO)C=CO.[O:20][O]>>C[C:10](COO)(C=CO)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:3][O:2][O:1].[CH3:4][C:5]([CH2:9][O:10][O:11])([CH:6]=[CH:7][OH:8])[O:12][OH:13]>>[H:3][O:11][O:10][CH2:9][C:5]([CH3:4])([CH:6]=[CH:7][OH:8])[O:12][OH:13].[O:1][O:2] 11-11,3; 2,3-11,3; 2,3-2",Room Temperature,Propagation,abstraction
+"[CH3:1][C:2]([CH2:6][O:7][O:8][N:9]=[O:10])([CH:3]=[CH:4][OH:5])[O:11][OH:12]>>[CH3:1][C:2]([CH2:6][O:7])([CH:3]=[CH:4][OH:5])[O:11][OH:12].[N:9](=[O:10])[O:8] 7,8-8; 7,8-7",Room Temperature,Initiation,homolyze
+"[H:9][C:8]([C:10](=[O:12])[H:11])[C:2]([CH3:1])([CH2:5][O:6][OH:7])[O:3][OH:4].[O:13][O:14]>>[H:11][C:10](=[O:12])[C:8]([H:9])([C:2]([CH3:1])([CH2:5][O:6][OH:7])[O:3][OH:4])[O:13][O:14] 13-13,8; 8-13,8",Room Temperature,Termination,recombine
+"[H:13][O:12][O:11][CH2:10][C:3]([CH3:9])([CH:4]([CH:7]=[O:8])[O:5][O:6])[O:2][OH:1]>>[H:13][O:6][O:5][CH:4]([CH:7]=[O:8])[C:3]([CH3:9])([CH2:10][O:11][O:12])[O:2][OH:1] 6-6,13; 12,13-6,13; 12,13-12",Room Temperature,Propagation,abstraction
+"[H:11][O:10][O:9][CH:8]([CH:12]=[O:13])[C:4]([CH3:7])([CH2:3][O:2][OH:1])[O:5][O:6]>>[H:11][O:6][O:5][C:4]([CH3:7])([CH2:3][O:2][OH:1])[CH:8]([CH:12]=[O:13])[O:9][O:10] 6-6,11; 10,11-6,11; 10,11-10",Room Temperature,Propagation,abstraction
+"[H:12][C:11](=[O:13])[CH:8]([C:4]([CH3:7])([CH2:3][O:2][OH:1])[O:5][O:6])[O:9][OH:10]>>[H:12][O:6][O:5][C:4]([CH3:7])([CH2:3][O:2][OH:1])[CH:8]([C:11]=[O:13])[O:9][OH:10] 6-6,12; 12,11-12,6; 11,12-11",Room Temperature,Propagation,abstraction
+"[CH3:7][C:4]([CH2:3][O:2][OH:1])([CH:8]([CH:11]=[O:12])[O:9][OH:10])[O:5][O:6].[N:13]=[O:14]>>[CH3:7][C:4]([CH2:3][O:2][OH:1])([CH:8]([CH:11]=[O:12])[O:9][OH:10])[O:5][O:6][N:13]=[O:14] 6-6,13; 13-6,13",Room Temperature,Termination,recombine
+"[CH3:9][C:4]([CH2:3][O:2][OH:1])([CH:10]([CH:13]=[O:14])[O:11][OH:12])[O:5][O:6][N:7]=[O:8]>>[CH3:9][C:4]([CH2:3][O:2][OH:1])([CH:10]([CH:13]=[O:14])[O:11][OH:12])[O:5].[N:7](=[O:8])[O:6] 5,6-5; 5,6-6",Room Temperature,Initiation,homolyze
+"[H:7][C:6](=[O:8])[CH:5]([C:3]([CH3:4])([CH2:2][O:1])[O:11][OH:12])[O:9][OH:10]>>[H:7][C:6](=[O:8])[CH:5]([C:3]([CH3:4])[O:11][OH:12])[O:9][OH:10].[CH2:2]=[O:1] 1-1,2; 2,3-1,2; 2,3-3",Room Temperature,Propagation,retroaddition
+"O[CH:21]([H:20])/[CH:22]=[C:23](C)\CO[O:10]>>O/[C:21]([H])=[CH:22]/[C:23](C)CO[O:10][H:20] 10-10,20;20,21-10,20;20,21-21,22;22,23-21,22;22,23-23",Room Temperature,Propagation,abstraction
+"C[C:21]([O:30][O:31])([CH2:20][O:19][H:18])[CH:22]=[CH2:23]>>C[C:21]([O:30][O:31][H:18])([CH2:20][O:19])[CH:22]=[CH2:23] 31-18,31;18,19-18,31;18,19-19",Room Temperature,Propagation,abstraction
+"C[C:21]([O:30][O:31][H:18])([CH2:20][O:19])[CH:22]=[CH2:23]>>C[C:21]([O:30][O:31][H:18])[CH:22]=[CH2:23].[CH2:20]=[O:19] 19-19,20;20,21-19,20;20,21-21",Room Temperature,Propagation,retroaddition
+"C[C:10](C=C)[O:20][OH:21]>>C[C:10](=[O:20])C=C.[OH:21] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"[CH2:1]=[C:2](C)[CH:3]([O:10][O:11])[CH2:4][O:5][H:6]>>[CH2:1]=[C:2](C)[CH:3]([O:10][O:11][H:6])[CH2:4][O:5] 11-11,6;5,6-11,6;5,6-5",Room Temperature,Propagation,abstraction
+"[H:12][O:13][O:14].[CH3:4][C:3]([CH2:7][O:8][N+:9](=[O:11])[O-:10])([CH:2]=[CH2:1])[O:5][O:6]>>[H:12][O:6][O:5][C:3]([CH3:4])([CH2:7][O:8][N+:9](=[O:11])[O-:10])[CH:2]=[CH2:1].[O:13][O:14] 6-6,12;12,13-6,12;12,13-13",Room Temperature,Propagation,abstraction
+"[CH3:8][C:5]([CH2:4][O:3][N+:2](=[O:1])[O-:9])[CH:6]=[CH2:7].[O:10][O:11]>>[CH3:8][C:5]([CH2:4][O:3][N+:2](=[O:1])[O-:9])([CH:6]=[CH2:7])[O:10][O:11] 5-5,10; 10-10,5",Room Temperature,Termination,recombine
+"C[C:21](=[CH2:20])C=C.[N+](=O)([O-])[O:10]>>C[C:21]([CH2:20][O:10][N+](=O)[O-])C=C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"C[C:10](CO[N+](=O)[O-])C=C.[O:20][O]>>C[C:10](CO[N+](=O)[O-])(C=C)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][O:21][O].C/C(=C\CO[O:10])/CO[N+](=O)[O-]>>[H:20][O:10]OC/C=C(\C)/CO[N+](=O)[O-].[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C(O[O:20])Cl.[N:10]=O>>C(O[O:20][N:10]=O)Cl 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C([O:20][O:21]N=O)Cl>>C([O:20])Cl.N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:4][C:3]([H:5])[C:2](=[CH:6][CH2:7][Cl:8])[CH3:1].[O:9][O:10]>>[H:4][C:3]([H:5])([C:2](=[CH:6][CH2:7][Cl:8])[CH3:1])[O:9][O:10] 3-3,9; 9-3,9",Room Temperature,Termination,recombine
+"CC(CCl)(C=C)O[O:20].[N:10]=O>>CC(CCl)(C=C)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(CCl)(C=C)[O:20][O:21]N=O>>CC(CCl)(C=C)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CC(=C)C(CCl)O[O:20].[N:10]=O>>CC(=C)C(CCl)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:5][C:3]([CH2:6][OH:7])([C:2](=[O:1])[CH3:8])[O:4].[O:9][O:10]>>[H:5][O:10][O:9].[CH3:8][C:2](=[O:1])[C:3](=[O:4])[CH2:6][OH:7] 10-10,5; 4-4,3; 3,5-4,3; 3,5-5,10",Room Temperature,Termination,abstraction
+"CC(=O)C([CH2:10])O.[O:20][O]>>CC(=O)C([CH2:10][O:20][O])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:10][O:9][CH:6]([CH2:7][O:8])[C:5](=[O:11])[CH3:4].[N+:2](=[O:1])[O-:3]>>[H:10][O:9][CH:6]([CH2:7][O:8][N+:2](=[O:1])[O-:3])[C:5](=[O:11])[CH3:4] 2-2,8; 8-2,8",Room Temperature,Termination,recombine
+"[H:5][O:4][CH:3]([CH2:6][O:7][O:8])[C:2](=[O:1])[CH3:9].[H:10][O:11][O:12]>>[H:5][O:4][CH:3]([CH2:6][O:7][O:8][H:10])[C:2](=[O:1])[CH3:9].[O:11][O:12] 8-8,10; 11,10-8,10; 11,10-11",Room Temperature,Propagation,abstraction
+"[H:9][O:10][O:11].[CH3:8][C:3]([CH2:2][OH:1])([CH:4]=[O:5])[O:6][O:7]>>[H:9][O:7][O:6][C:3]([CH3:8])([CH2:2][OH:1])[CH:4]=[O:5].[O:10][O:11] 9,10-10;9,10-7,9;7-7,9",Room Temperature,Propagation,abstraction
+"[H:9][O:10][O:11].[CH3:1][C:2]([CH2:5][O:6][O:7])([CH:3]=[O:4])[OH:8]>>[H:9][O:7][O:6][CH2:5][C:2]([CH3:1])([CH:3]=[O:4])[OH:8].[O:10][O:11] 7-7,9; 10,9-7,9; 10,9-10",Room Temperature,Propagation,abstraction
+"[CH3:1][C:2]([CH2:5][O:6])([CH:3]=[O:4])[OH:7].[N+:9](=[O:8])[O-:10]>>[CH3:1][C:2]([CH2:5][O:6][N+:9](=[O:8])[O-:10])([CH:3]=[O:4])[OH:7] 9-9,6; 6-9,6",Room Temperature,Termination,recombine
+"[CH3:1][C:2](=[CH2:6])[C:3](=[O:5])[O:4]>>[CH3:1][C:2]=[CH2:6].[C:3](=[O:4])=[O:5] 2,3-3,4;4-3,4;2,3-2",Room Temperature,Propagation,retroaddition
+"[CH3:1][C:2](=[CH2:7])[C:3](=[O:6])[O:4][O:5].[N+:9](=[O:8])[O-:10]>>[CH3:1][C:2](=[CH2:7])[C:3](=[O:6])[O:4][O:5][N+:9](=[O:8])[O-:10] 5-5,9;9-9,5",Room Temperature,Termination,recombine
+"[H:7][O:8][O:9].[CH3:1][C:2](=[CH2:6])[C:3](=[O:5])[O:4]>>[H:7][O:4][C:3](=[O:5])[C:2](=[CH2:6])[CH3:1].[O:8][O:9] 4-4,7; 7,8-4,7; 8,7-8",Room Temperature,Propagation,abstraction
+"[H:5][C:4](=[O:6])[C:2](=[CH2:1])[CH3:3].[H:8][O:7]>>[H:8][O:7][H:5].[CH3:3][C:2](=[CH2:1])[C:4]=[O:6] 7-5,7; 4,5-5,7; 4,5-4",Room Temperature,Propagation,abstraction
+"[CH3:1][C:2](=[CH2:5])[C:3]=[O:4].[O:6][O:7]>>[CH3:1][C:2](=[CH2:5])[C:3](=[O:4])[O:6][O:7] 7-3,7; 3-3,7",Room Temperature,Termination,recombine
+"[CH3:1][C:2](=[CH2:7])[C:3](=[O:6])[O:4][O:5].[N+:9](=[O:10])[O-:8]>>[CH3:1][C:2](=[CH2:7])[C:3](=[O:6])[O:4][O:5][N+:9](=[O:10])[O-:8] 9-9,5; 5-9,5",Room Temperature,Termination,recombine
+"C[C:10](CO)[O:20][OH:21]>>C[C:10](=[O:20])CO.[OH:21] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"[H:13][O:12][O:11][CH2:10][CH:8]([C:3]([CH3:4])([CH:2][OH:1])[O:5][O:6][H:7])[OH:9]>>[H:7][O:6].[H:13][O:12][O:11][CH2:10][CH:8]([C:3]1([CH:2]([O:5]1)[OH:1])[CH3:4])[OH:9] 5,6-6;5,6-2,5;2-2,5",Room Temperature,Propagation,retroaddition
+"CC(CO)(C(COO)O)O[O:20].[N:10]=O>>CC(CO)(C(COO)O)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(CO)(C(COO)O)[O:20].[N+:10](=O)[O-]>>CC(CO)(C(COO)O)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:14][O:13][O:12][C:8]([CH3:9])([CH2:10][OH:11])[CH:5]([CH2:6][OH:7])[O:4][O:3][N:2]=[O:1]>>[H:14][O:13][O:12][C:8]([CH3:9])([CH2:10][OH:11])[CH:5]([CH2:6][OH:7])[O:4].[N:2](=[O:1])[O:3] 3,4-3; 3,4-4",Room Temperature,Initiation,homolyze
+"[H:1][O:2][O:3][C:4]([CH3:14])([CH2:5][OH:6])[CH:7]([CH2:9][O:10][O:11][N:12]=[O:13])[OH:8]>>[H:1][O:2][O:3][C:4]([CH3:14])([CH2:5][OH:6])[CH:7]([CH2:9][O:10])[OH:8].[N:12](=[O:13])[O:11] 10,11-10; 10,11-11",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CC(CO)(C(COO)O)O[O:10]>>[H:20][O:10]OC(C)(CO)C(COO)O.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:1][O:2][O:3].[CH3:4][C:5](=[O:11])[CH:6]([CH2:8][O:9][O:10])[OH:7]>>[H:1][O:10][O:9][CH2:8][CH:6]([C:5](=[O:11])[CH3:4])[OH:7].[O:2][O:3] 10-10,1; 1,2-1,10; 1,2-2",Room Temperature,Propagation,abstraction
+"[H:10][O:9][O:8][CH:5]([CH2:6][OH:7])[C:3]([CH3:4])[CH2:2][OH:1].[O:11][O:12]>>[H:10][O:9][O:8][CH:5]([CH2:6][OH:7])[C:3]([CH3:4])([CH2:2][OH:1])[O:11][O:12] 11-3,11;3-3,11",Room Temperature,Termination,recombine
+"[H:12][O:11][O:10][CH:7]([CH2:8][OH:9])[C:3]([CH3:4])([CH2:2][OH:1])[O:5][O:6]>>[H:12][O:6][O:5][C:3]([CH3:4])([CH2:2][OH:1])[CH:7]([CH2:8][OH:9])[O:10][O:11] 11,12-11;11,12-6,12;6-6,12",Room Temperature,Propagation,abstraction
+"[H:13][O:14][O:15].[H:12][O:11][O:10][CH:7]([CH2:8][OH:9])[C:3]([CH3:4])([CH2:2][OH:1])[O:5][O:6]>>[H:12][O:11][O:10][CH:7]([CH2:8][OH:9])[C:3]([CH3:4])([CH2:2][OH:1])[O:5][O:6][H:13].[O:14][O:15] 13,14-14;13,14-6,13;6-6,13",Room Temperature,Propagation,abstraction
+"[H:3][CH:2]([CH:4]([C:8]([CH3:9])([CH2:11][O:12][O:13])[OH:10])[O:5][O:6][H:7])[OH:1]>>[H:3][O:13][O:12][CH2:11][C:8]([CH3:9])([CH:4]([CH:2][OH:1])[O:5][O:6][H:7])[OH:10] 2,3-2;2,3-3,13;13-3,13",Room Temperature,Propagation,abstraction
+"[H:4][C:3]([CH2:2][OH:1])([C:8]([CH3:9])([CH2:11][O:12][O:13])[OH:10])[O:5][O:6][H:7]>>[H:4][O:13][O:12][CH2:11][C:8]([CH3:9])([C:3]([CH2:2][OH:1])[O:5][O:6][H:7])[OH:10] 3,4-3;3,4-4,13;13-4,13",Room Temperature,Propagation,abstraction
+"[H:13][O:12][O:11][CH2:10][C:7]([CH3:8])([C:3]([CH2:2][OH:1])[O:4][O:5][H:6])[OH:9]>>[H:6][O:5].[H:13][O:12][O:11][CH2:10][C:7]([CH3:8])([C:3](=[O:4])[CH2:2][OH:1])[OH:9] 4,5-5;4,5-3,4;3-3,4",Room Temperature,Propagation,retroaddition
+"[H:12][CH:11]([CH:7]([C:3]([CH3:4])([CH2:2][OH:1])[O:5][O:6])[O:8][O:9][H:10])[OH:13]>>[H:10][O:9][O:8][CH:7]([CH:11][OH:13])[C:3]([CH3:4])([CH2:2][OH:1])[O:5][O:6][H:12] 11,12-11;11,12-6,12;6-6,12",Room Temperature,Propagation,abstraction
+"[H:10][O:9][O:8][CH2:7][CH:5]([C:4](=[O:11])[CH3:3])[OH:6].[He]>>[He].[H:10][O:9].[CH3:3][C:4](=[O:11])[CH:5]([CH2:7][O:8])[OH:6] 8,9-8; 8,9-9",Light,Initiation,homolyze
+"CC(CO)(C(CO)OO)O[O:20].[N:10]=O>>CC(CO)(C(CO)OO)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(CO)(C(CO)OO)[O:20][O:21]N=O>>CC(CO)(C(CO)OO)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"C[C:10](CO)([CH:20](CO)OO)[O:11]>>C[C:10](CO)=[O:11].[CH:20](CO)OO 11-11,10;10,20-11,10;10,20-20",Room Temperature,Propagation,retroaddition
+"C[C:21](COO)([CH:20](CO)[O:10])O>>C[C:21](COO)O.C([CH:20]=[O:10])O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"[H:20][O:21][O].CC(COO)(C(CO)O[O:10])O>>[H:20][O:10]OC(CO)C(C)(COO)O.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:11][O:10].[H:6][O:5][O:4][C:3]([CH3:9])([CH2:2][OH:1])[CH:7]=[CH2:8]>>[H:11][O:10][H:6].[CH3:9][C:3]([CH2:2][OH:1])([CH:7]=[CH2:8])[O:4][O:5] 10-10,6; 5,6-10,6; 5,6-5",Room Temperature,Propagation,abstraction
+"[H:3][C:2]([H:4])([C:5]([CH3:11])([CH:9]=[CH2:10])[O:6][O:7][H:8])[OH:1].[H:13][O:12]>>[H:3][C:2]([C:5]([CH3:11])([CH:9]=[CH2:10])[O:6][O:7][H:8])[OH:1].[H:13][O:12][H:4] 12-12,4; 2,4-12,4; 2,4-2",Room Temperature,Propagation,abstraction
+"[H:9][C:8]([C:2]([CH3:1])([CH:6]=[CH2:7])[O:3][O:4][H:5])[O:10][H:11].[O:12][O:13]>>[H:9][C:8](=[O:10])[C:2]([CH3:1])([CH:6]=[CH2:7])[O:3][O:4][H:5].[H:11][O:12][O:13] 13-13,11; 11,10-10,8; 8-10,8; 11,10-11,13",Room Temperature,Termination,abstraction
+"[H:5][C:4]([H:6])([C:3]([H:8])([C:2](=[CH2:1])[CH3:12])[O:9][O:10][H:11])[OH:7].[H:14][O:13]>>[H:5][C:4]([H:6])([C:3]([H:8])([C:2](=[CH2:1])[CH3:12])[O:9][O:10])[OH:7].[H:14][O:13][H:11] 13-13,11; 10,11-13,11; 10,11-10",Room Temperature,Propagation,abstraction
+"[H:5][C:4]([H:6])([C:3]([H:8])([C:2](=[CH2:1])[CH3:12])[O:9][O:10][H:11])[OH:7].[H:14][O:13]>>[H:5][C:4]([C:3]([H:8])([C:2](=[CH2:1])[CH3:12])[O:9][O:10][H:11])[OH:7].[H:14][O:13][H:6] 13-13,6; 4,6-13,6; 4,6-4",Room Temperature,Propagation,abstraction
+"[H:6][C:5](=[C:2]([CH3:1])[CH2:3][OH:4])[CH2:7][O:8][O:9][H:10].[H:11][O:12]>>[H:6][C:5]([CH2:7][O:8][O:9][H:10])[C:2]([CH3:1])([CH2:3][OH:4])[O:12][H:11] 12-12,2; 2,5-12,2; 2,5-5",Room Temperature,Propagation,addition
+"[H:10][O:11].[H:9][O:8][O:7][CH2:6][CH:5]=[C:2]([CH3:1])[CH2:3][OH:4]>>[H:10][O:11][H:9].[CH3:1][C:2](=[CH:5][CH2:6][O:7][O:8])[CH2:3][OH:4] 11-11,9; 8,9-11,9; 8,9-8",Room Temperature,Propagation,abstraction
+"[H:7][C:6]([H:11])([CH:5]=[C:2]([CH3:1])[CH2:3][OH:4])[O:8][O:9][H:10].[H:12][O:13]>>[H:7][C:6]([CH:5]=[C:2]([CH3:1])[CH2:3][OH:4])[O:8][O:9][H:10].[H:12][O:13][H:11] 13-11,13; 11,6-11,13; 11,6-6",Room Temperature,Propagation,abstraction
+"[H:9][C:8]([H:10])([CH:7]=[C:2]([CH3:1])[C:3]([H:4])([H:5])[OH:6])[O:11][O:12][H:13].[H:14][O:15]>>[H:4][C:3]([C:2](=[CH:7][C:8]([H:9])([H:10])[O:11][O:12][H:13])[CH3:1])[OH:6].[H:14][O:15][H:5] 15-15,5; 3,5-15,5; 3,5-3",Room Temperature,Propagation,abstraction
+"[H:7][C:6]([CH:5]=[C:3]([CH3:4])[CH2:2][OH:1])[O:8][O:9][H:10]>>[H:7][C:6](=[O:8])[CH:5]=[C:3]([CH3:4])[CH2:2][OH:1].[H:10][O:9] 6-6,8; 9,8-6,8; 9,8-9",Room Temperature,Propagation,retroaddition
+"[H:20][O:21][C:22](CO)C1(CO1)C.[O:10][O]>>[H:20][O:10][O].CC1(CO1)[C:22](=[O:21])CO 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[CH3:1][C:2]1([CH2:7][O:8]1)[C:3]([CH2:4][OH:5])[OH:6]>>[CH3:1][C:2](=[C:3]([CH2:4][OH:5])[OH:6])[CH2:7][O:8] 3-3,2; 8,2-8; 8,2-3,2",Room Temperature,Propagation,retroaddition
+"[CH3:1][C:2](=[C:5]([CH2:6][OH:7])[OH:8])[CH2:3][O:4]>>[CH3:1][C:2]1([CH2:3][O:4]1)[C:5]([CH2:6][OH:7])[OH:8] 4-4,2; 5,2-5; 5,2-4,2",Room Temperature,Propagation,addition
+"[H:9][O:8][C:5](=[C:2]([CH3:1])[CH2:3][O:4])[CH2:6][OH:7]>>[H:9][O:4][CH2:3][C:2](=[C:5]([CH2:6][OH:7])[O:8])[CH3:1] 4-4,9; 8,9-4,9; 9,8-8",Room Temperature,Propagation,abstraction
+"[H:8][O:7][CH2:6][C:5](=[C:2]([CH3:1])[CH2:3][O:4])[OH:9]>>[H:8][O:4][CH2:3][C:2](=[C:5]([CH2:6][O:7])[OH:9])[CH3:1] 4-4,8; 7,8-4,8; 7,8-7",Room Temperature,Propagation,abstraction
+"[H:5][O:4][CH2:3][C:2](=[C:6]([CH2:7][O:8])[OH:9])[CH3:1]>>[H:5][O:8][CH2:7][C:6](=[C:2]([CH3:1])[CH2:3][O:4])[OH:9] 8-8,5; 4,5-4; 4,5-8,5",Room Temperature,Propagation,abstraction
+"[H:4][CH:3]([C:2](=[C:6]([CH2:7][OH:8])[OH:9])[CH3:1])[O:5].[O:10][O:11]>>[H:4][O:10][O:11].[CH3:1][C:2](=[C:6]([CH2:7][OH:8])[OH:9])[CH:3]=[O:5] 10-10,4; 5-5,3; 3,4-10,4; 3,4-5,3",Room Temperature,Termination,abstraction
+"[H:20][CH:21](C(C)(C(=O)CO)O[O:10])O>>[H:20][O:10]OC(C)([CH:21]O)C(=O)CO 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][O:21][CH:22]C(C)(C(=O)CO)OO.[O:10][O]>>[H:20][O:10][O].CC([CH:22]=[O:21])(C(=O)CO)OO 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[H:20][CH:21](C(=C(C)C[O:10])O)O>>[H:20][O:10]CC(=C([CH:21]O)O)C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][O:21][CH:22]C(=C(C)CO)O.[O:10][O]>>[H:20][O:10][O].CC(=C([CH:22]=[O:21])O)CO 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"CC(CO)(C(=O)CO)O[O:20].[N:10]=O>>CC(CO)(C(=O)CO)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(CO)(C(=O)CO)[O:20][O:21]N=O>>CC(CO)(C(=O)CO)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CC(CO)(C(=O)CO)[O:20].[N+:10](=O)[O-]>>CC(CO)(C(=O)CO)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:6][O:5][C:3]([CH3:4])([CH2:2][OH:1])[CH:7]([CH:10]=[O:11])[O:8][O:9].[H:12][O:13][O:14]>>[H:6][O:5][C:3]([CH3:4])([CH2:2][OH:1])[CH:7]([CH:10]=[O:11])[O:8][O:9][H:12].[O:13][O:14] 12,13-13;12,13-9,12;9-9,12",Room Temperature,Propagation,abstraction
+"[CH3:4][C:3]1([CH:5]([O:6]1)[CH2:7][OH:8])[CH:2][OH:1]>>[CH3:4][C:3](=[CH:2][OH:1])[CH:5]([CH2:7][OH:8])[O:6] 3,6-6;3,6-2,3;2-2,3",Room Temperature,Propagation,retroaddition
+"[H:9][O:8][CH:7]=[C:5]([CH3:6])[CH:3]([CH2:2][OH:1])[O:4]>>[H:9][O:4][CH:3]([CH2:2][OH:1])[C:5](=[CH:7][O:8])[CH3:6] 8,9-8;8,9-4,9;4-4,9",Room Temperature,Propagation,abstraction
+"[H:9][O:8][CH:7]([CH2:10][OH:11])[C:3]([CH3:4])([CH:2]=[O:1])[O:5][O:6].[H:12][O:13][O:14]>>[H:9][O:8][CH:7]([CH2:10][OH:11])[C:3]([CH3:4])([CH:2]=[O:1])[O:5][O:6][H:12].[O:13][O:14] 12,13-13;12,13-6,12;6-6,12",Room Temperature,Propagation,abstraction
+"[H:3][CH:2]([CH:4]([C:9]([CH3:10])([CH2:12][O:13][O:14])[OH:11])[O:5][N+:6](=[O:8])[O-:7])[OH:1]>>[H:3][O:14][O:13][CH2:12][C:9]([CH3:10])([CH:4]([CH:2][OH:1])[O:5][N+:6](=[O:8])[O-:7])[OH:11] 2,3-2;2,3-3,14;14-3,14",Room Temperature,Propagation,abstraction
+"[H:14][O:13][O:12][CH2:11][C:8]([CH3:9])([CH:3]([CH:2][OH:1])[O:4][N+:5](=[O:7])[O-:6])[OH:10].[O:15][O:16]>>[H:14][O:13][O:12][CH2:11][C:8]([CH3:9])([CH:3]([CH:2]([OH:1])[O:15][O:16])[O:4][N+:5](=[O:7])[O-:6])[OH:10] 2-2,15;15-2,15",Room Temperature,Termination,recombine
+"[H:1][O:2].[CH3:3][C:4]([CH2:11][OH:12])([CH:5]=[CH2:6])[O:7][N+:8](=[O:10])[O-:9]>>[H:1][O:2][CH:5]([CH2:6])[C:4]([CH3:3])([CH2:11][OH:12])[O:7][N+:8](=[O:10])[O-:9] 2-2,5; 5,6-2,5; 5,6-6",Room Temperature,Propagation,addition
+"[CH3:1][C:2]([CH2:7][OH:8])[O:3][N+:4](=[O:6])[O-:5]>>[CH3:1][C:2](=[O:3])[CH2:7][OH:8].[N+:4](=[O:6])[O-:5] 2-2,3; 4,3-2,3; 3,4-4",Room Temperature,Propagation,retroaddition
+"[H:13][C:12]([H:14])([CH:9]([C:8]([CH3:18])([CH2:16][OH:17])[O:7][N+:5](=[O:4])[O-:6])[O:10][O:11])[OH:15].[H:1][O:2][O:3]>>[H:13][C:12]([H:14])([CH:9]([C:8]([CH3:18])([CH2:16][OH:17])[O:7][N+:5](=[O:4])[O-:6])[O:10][O:11][H:1])[OH:15].[O:2][O:3] 11-11,1; 1,2-11,1; 1,2-2",Room Temperature,Propagation,abstraction
+"CC(=O)[CH:10]C(O)O.[O:20][O]>>CC(=O)[CH:10](C(O)O)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=O)C(C(O)O)O[O:20].[N:10]=O>>CC(=O)C(C(O)O)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=O)C(C(O)O)[O:20][O:21]N=O>>CC(=O)C(C(O)O)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CC(=O)C(C(O)O)[O:20].[N+:10](=O)[O-]>>CC(=O)C(C(O)O)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][O:21][CH:22]C=C(C)COO.[O:10][O]>>[H:20][O:10][O].CC(=C[CH:22]=[O:21])COO 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[H:11][O:10].[H:9][O:8][O:7][CH2:6][CH:5]=[C:3]([CH3:4])[CH:2]=[O:1]>>[H:11][O:10][H:9].[CH3:4][C:3](=[CH:5][CH2:6][O:7][O:8])[CH:2]=[O:1] 10-9,10;8,9-9,10;8,9-8",Room Temperature,Propagation,abstraction
+"[H:3][C:2](=[O:1])[C:4](=[CH:6][CH2:7][O:8][O:9])[CH3:5]>>[H:3][O:9][O:8][CH2:7][CH:6]=[C:4]([CH3:5])[C:2]=[O:1] 9-3,9;2,3-3,9;2,3-2",Room Temperature,Propagation,abstraction
+"C/C(=C/[C:10]=O)/CO.[O:20][O]>>C/C(=C/[C:10](=O)[O:20][O])/CO 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C/[C:21](=[CH:20]/C=O)/CO.[OH:10]>>C[C:21](CO)[CH:20](C=O)[OH:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"C/[C:20](=[CH:21]/C=O)/CO.[OH:10]>>C[C:20](CO)([CH:21]C=O)[OH:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC(CO)([CH:10]C=O)O.[O:20][O]>>CC(CO)([CH:10](C=O)[O:20][O])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][C:21](CC)(CC)O.[OH:10]>>[H:20][OH:10].CC[C:21](CC)O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][O:21][C:22](CC)CC.[O:10][O]>>[H:20][O:10][O].CC[C:22](=[O:21])CC 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[H:6][C:5]([H:7])([H:8])[CH2:4][CH:3]([CH2:2][CH3:1])[OH:9].[H:11][O:10]>>[H:6][C:5]([H:7])[CH2:4][CH:3]([CH2:2][CH3:1])[OH:9].[H:11][O:10][H:8] 5,7-7,10; 5,7-5; 10-10,7",Room Temperature,Propagation,abstraction
+"[H:7][C:6]([H:8])[CH2:5][CH:3]([CH2:2][CH3:1])[OH:4].[O:9][O:10]>>[H:7][C:6]([H:8])([CH2:5][CH:3]([CH2:2][CH3:1])[OH:4])[O:9][O:10] 6-6,9; 9-9,6",Room Temperature,Termination,recombine
+"[H:5][C:4]([H:7])([CH3:6])[CH:3]([CH2:2][CH3:1])[OH:8].[H:10][O:9]>>[H:5][C:4]([CH3:6])[CH:3]([CH2:2][CH3:1])[OH:8].[H:10][O:9][H:7] 7,4-4; 7,4-7,9; 9-9,7",Room Temperature,Propagation,abstraction
+"[H:6][C:5]([CH3:7])[CH:3]([CH2:2][CH3:1])[OH:4].[O:8][O:9]>>[H:6][C:5]([CH3:7])([CH:3]([CH2:2][CH3:1])[OH:4])[O:8][O:9] 5-5,8; 8-8,5",Room Temperature,Termination,recombine
+"CC(C)(C([CH2:20])O)O.[O:10][O]>>CC(C)(C([CH2:20][O:10][O])O)O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C)([CH:21]=[CH2:20])O.[OH:10]>>CC(C)([CH:21][CH2:20][OH:10])O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC(C)([CH:10]CO)O.[O:20][O]>>CC(C)([CH:10](CO)[O:20][O])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C)([CH:21]=[CH2:20])O.[N+](=O)([O-])[O:10]>>CC(C)([CH:21][CH2:20][O:10][N+](=O)[O-])O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC(C)([CH:10]CO[N+](=O)[O-])O.[O:20][O]>>CC(C)([CH:10](CO[N+](=O)[O-])[O:20][O])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C)([CH:20]=[CH2:21])O.[N+](=O)([O-])[O:10]>>CC(C)([CH:20]([CH2:21])[O:10][N+](=O)[O-])O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC(C)(C([CH2:10])O[N+](=O)[O-])O.[O:20][O]>>CC(C)(C([CH2:10][O:20][O])O[N+](=O)[O-])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][C:21](=O)/C=C/C.[N+](=O)([O-])[O:10]>>[H:20][O:10][N+](=O)[O-].C/C=C/[C:21]=O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C/C=C/[C:10]=O.[O:20][O]>>C/C=C/[C:10](=O)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C/[CH:21]=[CH:20]/C=O.[N+](=O)([O-])[O:10]>>C[CH:21][CH:20](C=O)[O:10][N+](=O)[O-] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"C[CH:10]C(C=O)O[N+](=O)[O-].[O:20][O]>>C[CH:10](C(C=O)O[N+](=O)[O-])[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C/[CH:20]=[CH:21]/C=O.[N+](=O)([O-])[O:10]>>C[CH:20]([CH:21]C=O)[O:10][N+](=O)[O-] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC([CH:10]C=O)O[N+](=O)[O-].[O:20][O]>>CC([CH:10](C=O)[O:20][O])O[N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][C:21](=O)/C=C/C.[OH:10]>>[H:20][OH:10].C/C=C/[C:21]=O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C/[CH:21]=[CH:20]/C=O.[OH:10]>>C[CH:21][CH:20](C=O)[OH:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"C[CH:10]C(C=O)O.[O:20][O]>>C[CH:10](C(C=O)O)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C/[CH:20]=[CH:21]/C=O.[OH:10]>>C[CH:20]([CH:21]C=O)[OH:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC([CH:10]C=O)O.[O:20][O]>>CC([CH:10](C=O)[O:20][O])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH2:21]CCCCC.[Cl:10]>>[H:20][Cl:10].CCCCC[CH2:21] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][CH2:21]CCCCC.[OH:10]>>[H:20][OH:10].CCCCC[CH2:21] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCCCC[CH2:10].[O:20][O]>>CCCCC[CH2:10][O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH:21](C)CCCC.[Cl:10]>>[H:20][Cl:10].CCCC[CH:21]C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][CH:21](C)CCCC.[OH:10]>>[H:20][OH:10].CCCC[CH:21]C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCCC[CH:10]C.[O:20][O]>>CCCC[CH:10](C)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH:21](CC)CCC.[Cl:10]>>[H:20][Cl:10].CCC[CH:21]CC 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][CH:21](CC)CCC.[OH:10]>>[H:20][OH:10].CCC[CH:21]CC 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCC[CH:10]CC.[O:20][O]>>CCC[CH:10](CC)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH:21](CC)CCCCCCC.[OH:10]>>[H:20][OH:10].CCCCCCC[CH:21]CC 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][CH:21](CC)CCCCCCC.[Cl:10]>>[H:20][Cl:10].CCCCCCC[CH:21]CC 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCCCCCC[CH:10]CC.[O:20][O]>>CCCCCCC[CH:10](CC)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH:21](CC)CCCCCCCC.[OH:10]>>[H:20][OH:10].CCCCCCCC[CH:21]CC 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][CH:21](CC)CCCCCCCC.[Cl:10]>>[H:20][Cl:10].CCCCCCCC[CH:21]CC 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCCCCCCC[CH:10]CC.[O:20][O]>>CCCCCCCC[CH:10](CC)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C)[CH:21]=[CH2:20].[N+](=O)([O-])[O:10]>>CC(C)[CH:21][CH2:20][O:10][N+](=O)[O-] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC(C)[CH:20]=[CH2:21].[N+](=O)([O-])[O:10]>>CC(C)[CH:20]([CH2:21])[O:10][N+](=O)[O-] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC(C)[CH:21]=[CH2:20].[OH:10]>>CC(C)[CH:21][CH2:20][OH:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC(C)[CH:20]=[CH2:21].[OH:10]>>CC(C)[CH:20]([CH2:21])[OH:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC(C)[CH:10]CO[N+](=O)[O-].[O:20][O]>>CC(C)[CH:10](CO[N+](=O)[O-])[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C)C([CH2:10])O[N+](=O)[O-].[O:20][O]>>CC(C)C([CH2:10][O:20][O])O[N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C)C([CH2:20])O.[O:10][O]>>CC(C)C([CH2:20][O:10][O])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH2:21]C1=CC=CC=C1.[OH:10]>>[H:20][OH:10].[CH2:21]C1=CC=CC=C1 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[CH2:10]C1=CC=CC=C1.[O:20][O]>>C1=CC=C(C=C1)[CH2:10][O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C[C:21]1=[CH:20]C=CC=C1.[OH:10]>>C[C:21]1C=CC=C[CH:20]1[OH:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"[H:20][C:21]1(C=CC=C[C:22]1C)O.[O:10][O]>>[H:20][O:10][O].C[C:22]1=[C:21](C=CC=C1)O 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"CC1=CC=C[CH:21]=[CH:20]1.[OH:10]>>CC1=CC=C[CH:21][CH:20]1[OH:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC1=CC=C[CH:10]C1O.[O:20][O]>>CC1=CC=C[CH:10](C1O)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C[C:20]1=[CH:21]C=CC(C1O)O[O:10]>>C[C:20]12[CH:21]C=CC(C1O)O[O:10]2 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC12[CH:10][CH:20]=[CH:21]C(C1O)OO2>>CC12[CH:10]=[CH:20][CH:21]C(C1O)OO2 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,resonance
+"CC12C=C[CH:10]C(C1O)OO2.[O:20][O]>>CC12C=C[CH:10](C(C1O)OO2)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C[C:10]1C=CC=CC1O.[O:20][O]>>C[C:10]1(C=CC=CC1O)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC1(C=C[CH:21]=[CH:20]C1O)O[O:10]>>CC12C=C[CH:21][CH:20](C1O)[O:10]O2 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC12C=C[CH:10]C(C1O)[O:20][O:21]2>>CC1(C=C[CH:10]2C(C1O)[O:20]2)[O:21] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"C[C:20]1(C=CC2C([CH:21]1O)O2)[O:10]>>C[C:20](=[O:10])C=CC1C(O1)[CH:21]O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"[H:20][O:21][CH:22]C1C(O1)C=CC(=O)C.[O:10][O]>>[H:20][O:10][O].CC(=O)C=CC1C(O1)[CH:22]=[O:21] 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[H:20][O:21][CH:22]C1C(O1)C=CC(=O)C(C)C.[O:10][O]>>[H:20][O:10][O].CC(C)C(=O)C=CC1C(O1)[CH:22]=[O:21] 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[H:20][CH2:21]C1=C(C(=CC=C1)C)C.[N+](=O)([O-])[O:10]>>[H:20][O:10][N+](=O)[O-].CC1=CC=CC(=C1C)[CH2:21] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC1=C(C(=CC=C1)[CH2:10])C.[O:20][O]>>CC1=C(C(=CC=C1)[CH2:10][O:20][O])C 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C[C:21]1=[C:20](C(=CC=C1)C)C.[OH:10]>>C[C:21]1C=CC=C([C:20]1(C)[OH:10])C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"C[C:10]1C=CC=C(C1(C)O)C.[O:20][O]>>CC1=CC=C[C:10](C1(C)O)(C)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C[C:20]1=[CH:21]C=CC(C1(C)O)(C)O[O:10]>>CC12C=C[CH:21][C:20](C1(C)O)(C)[O:10]O2 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"CC12C=C[CH:10]C(C1(C)O)(OO2)C.[O:20][O]>>CC12C=C[CH:10](C(C1(C)O)(OO2)C)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC12C=C[CH:10]C(C1(C)O)([O:20][O:21]2)C>>CC1(C=C[CH:10]2C(C1(C)O)([O:20]2)C)[O:21] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"C[C:20]1(C=CC2C([C:21]1(C)O)(O2)C)[O:10]>>C[C:20](=[O:10])C=CC1C(O1)([C:21](C)O)C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"[H:20][O:21][C:22](C)C1(C(O1)C=CC(=O)C)C.[O:10][O]>>[H:20][O:10][O].CC(=O)C=CC1C(O1)(C)[C:22](=[O:21])C 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[H:20][C:21](C(Cl)Cl)(Cl)Cl.[OH:10]>>[H:20][OH:10].C([C:21](Cl)Cl)(Cl)Cl 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C([C:10](Cl)Cl)(Cl)Cl.[O:20][O]>>C([C:10]([O:20][O])(Cl)Cl)(Cl)Cl 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][C:21](CCl)(Cl)Cl.[OH:10]>>[H:20][OH:10].C([C:21](Cl)Cl)Cl 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][CH:21](C(Cl)Cl)Cl.[OH:10]>>[H:20][OH:10].[CH:21](C(Cl)Cl)Cl 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C([C:10](Cl)Cl)Cl.[O:20][O]>>C([C:10]([O:20][O])(Cl)Cl)Cl 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH:10](C(Cl)Cl)Cl.[O:20][O]>>[CH:10](C(Cl)Cl)([O:20][O])Cl 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH:21](CC)OC(=O)C.[OH:10]>>[H:20][OH:10].CC[CH:21]OC(=O)C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][CH:21](C)COC(=O)C.[OH:10]>>[H:20][OH:10].C[CH:21]COC(=O)C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC[CH:10]OC(=O)C.[O:20][O]>>CC[CH:10](OC(=O)C)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C[CH:10]COC(=O)C.[O:20][O]>>C[CH:10](COC(=O)C)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH2:21]C(C)OC(=O)C.[OH:10]>>[H:20][OH:10].CC([CH2:21])OC(=O)C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][C:21](C)(C)OC(=O)C.[OH:10]>>[H:20][OH:10].C[C:21](C)OC(=O)C 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC([CH2:10])OC(=O)C.[O:20][O]>>CC([CH2:10][O:20][O])OC(=O)C 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C[C:10](C)OC(=O)C.[O:20][O]>>CC(=O)O[C:10](C)(C)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH:21](CCC)OCC(C)O.[N+](=O)([O-])[O:10]>>[H:20][O:10][N+](=O)[O-].CCC[CH:21]OCC(C)O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCC[CH:10]OCC(C)O.[O:20][O]>>CCC[CH:10](OCC(C)O)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH:21](CCC)OCC(C)O.[OH:10]>>[H:20][OH:10].CCC[CH:21]OCC(C)O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][CH:21](C(C)O)OCCCC.[N+](=O)([O-])[O:10]>>[H:20][O:10][N+](=O)[O-].CCCCO[CH:21]C(C)O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCCCO[CH:10]C(C)O.[O:20][O]>>CCCCO[CH:10](C(C)O)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][CH:21](C(C)O)OCCCC.[OH:10]>>[H:20][OH:10].CCCCO[CH:21]C(C)O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][C:21](C)(COCCCC)O.[OH:10]>>[H:20][OH:10].CCCCOC[C:21](C)O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][O:21][C:22](C)COCCCC.[O:10][O]>>[H:20][O:10][O].CCCCOC[C:22](=[O:21])C 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[H:20][CH:21](C(=O)C)O.[OH:10]>>[H:20][OH:10].CC(=O)[CH:21]O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][O:21][CH:22]C(=O)C.[O:10][O]>>[H:20][O:10][O].CC(=O)[CH:22]=[O:21] 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"[H:20][C:21](=O)C(C)O.[N+](=O)([O-])[O:10]>>[H:20][O:10][N+](=O)[O-].CC([C:21]=O)O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC([C:10]=O)O.[O:20][O]>>CC([C:10](=O)[O:20][O])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][C:21](=O)C(C)O.[OH:10]>>[H:20][OH:10].CC([C:21]=O)O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C=CC(=O)O[O:20].O[O:10]>>C=CC(=O)O[O:20][O:10]O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C=CC(=O)[O:20][O:21]OO>>C=CC(=O)[O:20].OO[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21]O[O].C=CC(=O)[O:10]>>[H:20][O:10]C(=O)C=C.[O:21]O[O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:20][O:21][O].C=CC(=O)O[O:10]>>[H:20][O:10]OC(=O)C=C.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:9][O:8][O:7][O:6].[CH2:4]=[CH:3][C:2](=[O:5])[O:1]>>[H:9][O:8].[CH2:4]=[CH:3][C:2](=[O:5])[O:1].[O:6][O:7] 7,8-7; 7,8-8",Room Temperature,Initiation,homolyze
+"C=[CH:21][C:20](=O)[O:10]>>C=[CH:21].[C:20](=O)=[O:10] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"C=[CH:10].[O:20][O]>>C=[CH:10][O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH2:21]=[CH:20]O[O:10]>>[CH2:21][CH:20]1O[O:10]1 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,addition
+"[H:1][C:2]([H:3])[C:4]1([O:6][O:7]1)[H:5]>>[H:1][C:2]1([C:4]([O:6]1)([H:5])[O:7])[H:3] 6,7-6,2; 2-6,2; 7,6-7",Room Temperature,Propagation,abstraction
+"[CH2:11]1O[CH:10]1[O:20]>>[CH2:11]O[CH:10]=[O:20] 10,11-10,20;10,11-11;20-10,20",Room Temperature,Propagation,retroaddition
+"[CH2:10][O:20][CH:21]=O>>[CH2:10]=[O:20].[CH:21]=O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition
+"[H:10][C:11]=O.[O:20][O]>>[H:10][O:20][O].[C:11]=O 10,11-10,20;10,11-11;20-10,20",Room Temperature,Propagation,abstraction
+"C=CC(=O)O[O:20].[N:10]=O>>C=CC(=O)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C=CC(=O)[O:20][O:21]N=O>>C=CC(=O)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[CH2:6]=[CH:5][C:2](=[O:1])[O:3][O:4].[N+:8](=[O:7])[O-:9]>>[CH2:6]=[CH:5][C:2](=[O:1])[O:3][O:4][N+:8](=[O:7])[O-:9] 4-4,8; 8-4,8",Room Temperature,Termination,recombine
+"C=CC(=O)O[O:20].[N+](=O)([O-])[O:10]>>C=CC(=O)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH2:8]=[CH:7][C:6](=[O:9])[O:5][O:4][O:3][N+:2](=[O:10])[O-:1]>>[CH2:8]=[CH:7][C:6](=[O:9])[O:5][O:4][O:3].[N+:2](=[O:10])[O-:1] 2,3-2; 2,3-3",Room Temperature,Initiation,homolyze
+"C=CC(=O)[O:20][O:21][O]>>C=CC(=O)[O:20].[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].C(C(C=O)O[O:10])O>>[H:20][O:10]OC(CO)C=O.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C(C(C=O)O[O:20])O.[N:10]=O>>C(C(C=O)O[O:20][N:10]=O)O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C(C(C=O)[O:20][O:21]N=O)O>>C(C(C=O)[O:20])O.N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"C(C(C=O)O[O:20])O.[N+](=O)([O-])[O:10]>>C(C(C=O)O[O:20][O:10][N+](=O)[O-])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH2:9]([CH:6]([CH:7]=[O:8])[O:5][O:4][O:3][N+:2](=[O:11])[O-:1])[OH:10]>>[CH2:9]([CH:6]([CH:7]=[O:8])[O:5][O:4][O:3])[OH:10].[N+:2](=[O:11])[O-:1] 2,3-2; 2,3-3",Room Temperature,Initiation,homolyze
+"C(C(C=O)[O:20][O:21][O])O>>C(C(C=O)[O:20])O.[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CCCCC(CC)O[O:10]>>[H:20][O:10]OC(CC)CCCC.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCCCC(CC)O[O:20].[N:10]=O>>CCCCC(CC)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CCCCC(CC)[O:20][O:21]N=O>>CCCCC(CC)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+[CH3:8][CH2:7][CH2:6][CH2:5][CH:2]([CH2:3][CH3:4])[O:1].[N:10](=[O:11])[O:9]>>[CH3:8][CH2:7][CH2:6][CH2:5][CH:2]([CH2:3][CH3:4])[O:1].[N+:10](=[O:11])[O-:9] 10-9,Room Temperature,Propagation,ha resonance
+"CCCCC(CC)[O:20].[N+:10](=O)[O-]>>CCCCC(CC)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CCCCC(CC)O[O:20].[N+](=O)([O-])[O:10]>>CCCCC(CC)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH3:12][CH2:11][CH2:10][CH2:9][CH:6]([CH2:7][CH3:8])[O:5][O:4][O:3][N+:2](=[O:1])[O-:13]>>[CH3:12][CH2:11][CH2:10][CH2:9][CH:6]([CH2:7][CH3:8])[O:5][O:4][O:3].[N+:2](=[O:1])[O-:13] 3,2-3;3,2-2",Room Temperature,Initiation,homolyze
+"CCCCC(CC)[O:20][O:21][O]>>CCCCC(CC)[O:20].[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CCCC(C)(CC)[O:20][O:21][O]>>CCCC(C)(CC)[O:20].[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CCCCCC(CC)O[O:10]>>[H:20][O:10]OC(CC)CCCCC.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCCCCC(CC)O[O:20].[N:10]=O>>CCCCCC(CC)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CCCCCC(CC)[O:20][O:21]N=O>>CCCCCC(CC)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+[CH3:9][CH2:8][CH2:7][CH2:6][CH2:5][CH:2]([CH2:3][CH3:4])[O:1].[N:11](=[O:12])[O:10]>>[CH3:9][CH2:8][CH2:7][CH2:6][CH2:5][CH:2]([CH2:3][CH3:4])[O:1].[N+:11](=[O:12])[O-:10] 11-10,Room Temperature,Propagation,ha resonance
+"CCCCCC(CC)[O:20].[N+:10](=O)[O-]>>CCCCCC(CC)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CCCCCC(CC)O[O:20].[N+](=O)([O-])[O:10]>>CCCCCC(CC)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH3:13][CH2:12][CH2:11][CH2:10][CH2:9][CH:6]([CH2:7][CH3:8])[O:5][O:4][O:3][N+:2](=[O:1])[O-:14]>>[CH3:13][CH2:12][CH2:11][CH2:10][CH2:9][CH:6]([CH2:7][CH3:8])[O:5][O:4][O:3].[N+:2](=[O:1])[O-:14] 3,2-2; 3,2-3",Room Temperature,Initiation,homolyze
+"CCCCCC(CC)[O:20][O:21][O]>>CCCCCC(CC)[O:20].[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].C(CO[O:10])O[N+](=O)[O-]>>[H:20][O:10]OCCO[N+](=O)[O-].[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C(CO[O:20])O[N+](=O)[O-].[N:10]=O>>C(CO[O:20][N:10]=O)O[N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C(C[O:20][O:21]N=O)O[N+](=O)[O-]>>C(CO[N+](=O)[O-])[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"C(CO[O:20])O[N+](=O)[O-].[N+](=O)([O-])[O:10]>>C(CO[O:20][O:10][N+](=O)[O-])O[N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C(COO[O:20][N+:21](=O)[O-])O[N+](=O)[O-]>>C(COO[O:20])O[N+](=O)[O-].[N+:21](=O)[O-] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"C(C[O:21][O:20][O])O[N+](=O)[O-].[N+](=O)[O-]>>C(CO[N+](=O)[O-])[O:21].[N+](=O)[O-].[O:20][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"C(CO[O:20])O.[N+](=O)([O-])[O:10]>>C(CO[O:20][O:10][N+](=O)[O-])O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C(COO[O:20][N+:21](=O)[O-])O>>C(COO[O:20])O.[N+:21](=O)[O-] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"C(C[O:21][O:20][O])O.[N+](=O)[O-]>>C(C[O:21])O.[N+](=O)[O-].[O:20][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+[CH:6]1=[CH:7][CH:8]2[CH:2]([CH:3]([CH:4]1[O:5])[O:10][O:9]2)[OH:1].[N:12](=[O:13])[O:11]>>[CH:6]1=[CH:7][CH:8]2[CH:2]([CH:3]([CH:4]1[O:5])[O:10][O:9]2)[OH:1].[N+:12](=[O:13])[O-:11] 12-11,Room Temperature,Propagation,ha resonance
+"C1=CC2C(C(C1[O:20])OO2)O.[N+:10](=O)[O-]>>C1=CC(C2C(C1OO2)O)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C1=CC(C2C(C1OO2)O)O[O:20].[N+](=O)([O-])[O:10]>>C1=CC(C2C(C1OO2)O)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C1=CC(C2C(C1OO2)O)OO[O:20][N+:21](=O)[O-]>>C1=CC(C2C(C1OO2)O)OO[O:20].[N+:21](=O)[O-] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"C1=CC(C2C(C1OO2)O)[O:21][O:20][O].[N+](=O)[O-]>>C1=CC2C(C(C1[O:21])OO2)O.[N+](=O)[O-].[O:20][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][C:21](=O)/C=C\C1C(O1)C=O.[N+](=O)([O-])[O:10]>>[H:20][O:10][N+](=O)[O-].C(=C\C1C(O1)C=O)\[C:21]=O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C(=C\C1C(O1)[C:10]=O)\C=O.[O:20][O]>>C(=C\C1C(O1)[C:10](=O)[O:20][O])\C=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][C:21](=O)/C=C\C1C(O1)C=O.[OH:10]>>[H:20][OH:10].C(=C\C1C(O1)C=O)\[C:21]=O 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:3][C:2](=[O:1])[CH:4]1[CH:6]([O:5]1)[CH:7]=[CH:8][CH:9]=[O:10].[OH:11]>>[H:3][C:2](=[O:1])[CH:4]1[CH:6]([O:5]1)[CH:7][CH:8]([CH:9]=[O:10])[OH:11] 7,8-8,11; 7,8-7; 11-8,11",Room Temperature,Propagation,addition
+"[CH:10](C1C(O1)C=O)C(C=O)O.[O:20][O]>>C(=O)C1C(O1)[CH:10](C(C=O)O)[O:20][O] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[H:20][O:21][O].C(O[O:10])Cl>>[H:20][O:10]OCCl.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C(O[O:20])Cl.O[O:10]>>C(O[O:20][O:10]O)Cl 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C([O:20][O:21]OO)Cl>>C([O:20])Cl.OO[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:4][O:5][O:6][O:7].[CH2:2]([O:1])[Cl:3]>>[H:4][O:5].[CH2:2]([O:1])[Cl:3].[O:6][O:7] 5,6-6; 5,6-5",Room Temperature,Initiation,homolyze
+"[H:20][CH:21]([O:22])Cl.[OH:10].[O][O]>>[H:20][OH:10].[CH:21](=[O:22])Cl.[O][O] 10-10,20;20,21-10,20;20,21-21,22;22-21,22",Room Temperature,Termination,abstraction
+"C(O[O:20])Cl.[N:10]=O>>C(O[O:20][N:10]=O)Cl 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"C([O:20][O:21]N=O)Cl>>C([O:20])Cl.N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"C(O[O:20])Cl.[N+](=O)([O-])[O:10]>>C(O[O:20][O:10][N+](=O)[O-])Cl 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH2:6]([O:5][O:4][O:3][N+:2](=[O:1])[O-:8])[Cl:7]>>[CH2:6]([O:5][O:4][O:3])[Cl:7].[N+:2](=[O:1])[O-:8] 2,3-3; 2,3-2",Room Temperature,Initiation,homolyze
+"C([O:20][O:21][O])Cl>>C([O:20])Cl.[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CC(=O)CCO[O:10]>>[H:20][O:10]OCCC(=O)C.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC(=O)CCO[O:20].[N:10]=O>>CC(=O)CCO[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=O)CC[O:20][O:21]N=O>>CC(=O)CC[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+CC(=O)CC[O].O=[N:10][O:20]>>O=[N+:10][O-:20].CC(=O)CC[O] 10-20,Room Temperature,Propagation,ha resonance
+"CC(=O)CC[O:20].[N+:10](=O)[O-]>>CC(=O)CC[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=O)CCO[O:20].[N+](=O)([O-])[O:10]>>CC(=O)CCO[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=O)CCOO[O:20][N+:21](=O)[O-]>>CC(=O)CCOO[O:20].[N+:21](=O)[O-] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CC(=O)CC[O:21][O:20][O].[N+](=O)[O-]>>CC(=O)CC[O:21].[N+](=O)[O-].[O:20][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CC(C(=O)C)O[O:10]>>[H:20][O:10]OC(C)C(=O)C.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC(C(=O)C)O[O:20].[N:10]=O>>CC(C(=O)C)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C(=O)C)[O:20][O:21]N=O>>CC(C(=O)C)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+CC(C(=O)C)[O].O=[N:10][O:20]>>O=[N+:10][O-:20].CC(C(=O)C)[O] 10-20,Room Temperature,Propagation,ha resonance
+"CC(C(=O)C)[O:20].[N+:10](=O)[O-]>>CC(C(=O)C)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C(=O)C)O[O:20].[N+](=O)([O-])[O:10]>>CC(C(=O)C)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(C(=O)C)OO[O:20][N+:21](=O)[O-]>>CC(C(=O)C)OO[O:20].[N+:21](=O)[O-] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CC(C(=O)C)[O:21][O:20][O].[N+](=O)[O-]>>CC(C(=O)C)[O:21].[N+](=O)[O-].[O:20][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CCC(=O)CO[O:10]>>[H:20][O:10]OCC(=O)CC.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CCC(=O)CO[O:20].[N:10]=O>>CCC(=O)CO[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CCC(=O)C[O:20][O:21]N=O>>CCC(=O)C[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+CCC(=O)C[O].O=[N:10][O:20]>>O=[N+:10][O-:20].CCC(=O)C[O] 10-20,Room Temperature,Propagation,ha resonance
+"CCC(=O)C[O:20].[N+:10](=O)[O-]>>CCC(=O)C[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CCC(=O)CO[O:20].[N+](=O)([O-])[O:10]>>CCC(=O)CO[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CCC(=O)COO[O:20][N+:21](=O)[O-]>>CCC(=O)COO[O:20].[N+:21](=O)[O-] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CCC(=O)C[O:21][O:20][O].[N+](=O)[O-]>>CCC(=O)C[O:21].[N+](=O)[O-].[O:20][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)O[O:10]>>[H:20][O:10]OC1(CCC(CC1O[N+](=O)[O-])C(=C)C)C.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)O[O:20].[N:10]=O>>CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)[O:20][O:21]N=O>>CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)O[O:20].[N+](=O)([O-])[O:10]>>CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH3:1][C:2](=[CH2:3])[CH:4]1[CH2:5][CH2:6][C:7]([CH:8]([CH2:9]1)[O:10][N+:11](=[O:12])[O-:13])([CH3:14])[O:15][O:16][O:17][N+:18](=[O:19])[O-:20]>>[CH3:1][C:2](=[CH2:3])[CH:4]1[CH2:5][CH2:6][C:7]([CH:8]([CH2:9]1)[O:10][N+:11](=[O:12])[O-:13])([CH3:14])[O:15][O:16][O:17].[N+:18](=[O:19])[O-:20] 17,18-18; 17,18-17",Room Temperature,Initiation,homolyze
+"CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)[O:20][O:21][O].[N+](=O)[O-]>>CC(=C)C1CCC(C(C1)O[N+](=O)[O-])(C)[O:20].[N+](=O)[O-].[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CC(=C)C1CCC(C(C1)O)(C)O[O:10]>>[H:20][O:10]OC1(CCC(CC1O)C(=C)C)C.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC(=C)C1CCC(C(C1)O)(C)O[O:20].[N:10]=O>>CC(=C)C1CCC(C(C1)O)(C)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=C)C1CCC(C(C1)O)(C)[O:20][O:21]N=O>>CC(=C)C1CCC(C(C1)O)(C)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+[CH3:1][C:2](=[CH2:3])[CH:4]1[CH2:5][CH2:6][C:7]([CH:8]([CH2:9]1)[OH:10])([CH3:11])[O:12].[N:13](=[O:14])[O:15]>>[CH3:1][C:2](=[CH2:3])[CH:4]1[CH2:5][CH2:6][C:7]([CH:8]([CH2:9]1)[OH:10])([CH3:11])[O:12].[N+:13](=[O:14])[O-:15] 13-15,Room Temperature,Propagation,ha resonance
+"CC(=C)C1CCC(C(C1)O)(C)[O:20].[N+:10](=O)[O-]>>CC(=C)C1CCC(C(C1)O)(C)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=C)C1CCC(C(C1)O)(C)O[O:20].[N+](=O)([O-])[O:10]>>CC(=C)C1CCC(C(C1)O)(C)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH3:1][C:2](=[CH2:3])[CH:4]1[CH2:5][CH2:6][C:7]([CH:8]([CH2:9]1)[OH:10])([CH3:11])[O:12][O:13][O:14][N+:15](=[O:16])[O-:17]>>[CH3:1][C:2](=[CH2:3])[CH:4]1[CH2:5][CH2:6][C:7]([CH:8]([CH2:9]1)[OH:10])([CH3:11])[O:12][O:13][O:14].[N+:15](=[O:16])[O-:17] 14,15-15; 14,15-14",Room Temperature,Initiation,homolyze
+"CC(=C)C1CCC(C(C1)O)(C)[O:20][O:21][O].[N+](=O)[O-]>>CC(=C)C1CCC(C(C1)O)(C)[O:20].[N+](=O)[O-].[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CC(=C)C1CCC(C(C1)O[O:10])(C)O>>[H:20][O:10]OC1CC(CCC1(C)O)C(=C)C.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC(=C)C1CCC(C(C1)O[O:20])(C)O.[N:10]=O>>CC(=C)C1CCC(C(C1)O[O:20][N:10]=O)(C)O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=C)C1CCC(C(C1)[O:20][O:21]N=O)(C)O>>CC(=C)C1CCC(C(C1)[O:20])(C)O.N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+[CH3:1][C:2](=[CH2:3])[CH:4]1[CH2:5][CH2:6][C:7]([CH:8]([CH2:9]1)[O:10])([CH3:11])[OH:12].[N:13](=[O:14])[O:15]>>[CH3:1][C:2](=[CH2:3])[CH:4]1[CH2:5][CH2:6][C:7]([CH:8]([CH2:9]1)[O:10])([CH3:11])[OH:12].[N+:13](=[O:14])[O-:15] 13-15,Room Temperature,Propagation,ha resonance
+"CC(=C)C1CCC(C(C1)[O:20])(C)O.[N+:10](=O)[O-]>>CC(=C)C1CCC(C(C1)[O:20][N+:10](=O)[O-])(C)O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=C)C1CCC(C(C1)O[O:20])(C)O.[N+](=O)([O-])[O:10]>>CC(=C)C1CCC(C(C1)O[O:20][O:10][N+](=O)[O-])(C)O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC(=C)C1CCC(C(C1)OO[O:20][N+:21](=O)[O-])(C)O>>CC(=C)C1CCC(C(C1)OO[O:20])(C)O.[N+:21](=O)[O-] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CC(=C)C1CCC(C(C1)[O:21][O:20][O])(C)O.[N+](=O)[O-]>>CC(=C)C1CCC(C(C1)[O:21])(C)O.[N+](=O)[O-].[O:20][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].CC1=CCC(CC1)C(C)(CO)O[O:10]>>[H:20][O:10]OC(C)(CO)C1CCC(=CC1)C.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"CC1=CCC(CC1)C(C)(CO)O[O:20].[N:10]=O>>CC1=CCC(CC1)C(C)(CO)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC1=CCC(CC1)C(C)(CO)[O:20][O:21]N=O>>CC1=CCC(CC1)C(C)(CO)[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+[CH3:1][C:2]1=[CH:3][CH2:4][CH:5]([CH2:6][CH2:7]1)[C:8]([CH3:9])([CH2:10][OH:11])[O:12].[N:13](=[O:14])[O:15]>>[CH3:1][C:2]1=[CH:3][CH2:4][CH:5]([CH2:6][CH2:7]1)[C:8]([CH3:9])([CH2:10][OH:11])[O:12].[N+:13](=[O:14])[O-:15] 13-15,Room Temperature,Propagation,ha resonance
+"CC1=CCC(CC1)C(C)(CO)[O:20].[N+:10](=O)[O-]>>CC1=CCC(CC1)C(C)(CO)[O:20][N+:10](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC1=CCC(CC1)C(C)(CO)O[O:20].[N+](=O)([O-])[O:10]>>CC1=CCC(CC1)C(C)(CO)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CC1=CCC(CC1)C(C)(CO)OO[O:20][N+:21](=O)[O-]>>CC1=CCC(CC1)C(C)(CO)OO[O:20].[N+:21](=O)[O-] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"CC1=CCC(CC1)C(C)(CO)[O:21][O:20][O].[N+](=O)[O-]>>CC1=CCC(CC1)C(C)(CO)[O:21].[N+](=O)[O-].[O:20][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].COCOCO[O:10]>>[H:20][O:10]OCOCOC.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"COCOCO[O:20].[N:10]=O>>COCOCO[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"COCOC[O:20][O:21]N=O>>COCOC[O:20].N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+[CH3:1][O:2][CH2:3][O:4][CH2:5][O:6].[N:7](=[O:8])[O:9]>>[CH3:1][O:2][CH2:3][O:4][CH2:5][O:6].[N+:7](=[O:8])[O-:9] 7-9,Room Temperature,Propagation,ha resonance
+"COCOCO[O:20].[N+](=O)([O-])[O:10]>>COCOCO[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH3:1][O:2][CH2:3][O:4][CH2:5][O:6][O:7][O:8][N+:9](=[O:10])[O-:11]>>[CH3:1][O:2][CH2:3][O:4][CH2:5][O:6][O:7][O:8].[N+:9](=[O:10])[O-:11] 8,9-8; 8,9-9",Room Temperature,Initiation,homolyze
+"COCOC[O:20][O:21][O].[N+](=O)[O-]>>COCOC[O:20].[N+](=O)[O-].[O:21][O] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21][O].COC(OC)O[O:10]>>[H:20][O:10]OC(OC)OC.[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"COC(OC)O[O:20].[N:10]=O>>COC(OC)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"COC(OC)[O:20][O:21]N=O>>COC([O:20])OC.N(=O)[O:21] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+[CH3:1][O:2][CH:3]([O:4])[O:5][CH3:6].[N:7](=[O:8])[O:9]>>[CH3:1][O:2][CH:3]([O:4])[O:5][CH3:6].[N+:7](=[O:8])[O-:9] 7-9,Room Temperature,Propagation,ha resonance
+"COC(OC)O[O:20].[N+](=O)([O-])[O:10]>>COC(OC)O[O:20][O:10][N+](=O)[O-] 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"[CH3:1][O:2][CH:3]([O:10][CH3:11])[O:4][O:5][O:6][N+:7](=[O:9])[O-:8]>>[CH3:1][O:2][CH:3]([O:10][CH3:11])[O:4][O:5][O:6].[N+:7](=[O:9])[O-:8] 6,7-7; 6,7-6",Room Temperature,Initiation,homolyze
+"[CH3:1][O:2][CH:3]([O:7][CH3:8])[O:4][O:5][O:6].[N+:10](=[O:9])[O-:11]>>[CH3:1][O:2][CH:3]([O:4])[O:7][CH3:8].[N+:10](=[O:9])[O-:11].[O:5][O:6] 4,5-5; 4,5-4",Room Temperature,Initiation,homolyze
+"CS(C)(O)O[O:20].[N:10]=O>>CS(C)(O)O[O:20][N:10]=O 10-10,20;20-10,20",Room Temperature,Termination,recombine
+"CS(C)(O)[O:21][O:20]N=O>>CS(C)(O)[O:21].N(=O)[O:20] 20,21-20;20,21-21",Room Temperature,Initiation,homolyze
+"[H:20][O:21]S(C)(C)[O].N(=O)[O].[O:10][O]>>[H:20][O:10][O].CS(C)([O:21])[O].N(=O)[O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"[H:1][O:2][O:3].[CH3:4][S:5]([CH3:6])([O:7])[O:8].[N:9](=[O:10])[O:11]>>[H:1][O:2][O:3].[CH3:4][S:5](=[O:7])(=[O:8])[CH3:6].[N:9](=[O:10])[O:11] 8-5,8; 7-5,7; 5-8,5; 5-5,7",Room Temperature,Termination,resonance
+"[H:20][O:21]S(C)(C)O[O].[O:10][O]>>[H:20][O:10][O].CS(C)([O:21])O[O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,abstraction
+"C[S:20](C)([O:10])[O:21][O].O[O]>>C[S:20](=[O:10])C.O[O].[O:21][O] 10-10,20;20,21-10,20;20,21-21",Room Temperature,Propagation,retroaddition

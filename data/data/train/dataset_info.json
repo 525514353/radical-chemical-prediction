@@ -1,0 +1,36 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "reaction_smirks": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "temperature": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "process": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "reactant": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "product": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "reaction": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
